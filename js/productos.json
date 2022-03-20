@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "nombre": "Intel i5 11600K",
+    "cat": "CPU",
+    "precio": 120000,
+    "img": "assets/img/intel11600k.jpg",
+    "stock": "si",
+    "cantidad": 1
+  },
+  {
+    "id": 1,
+    "nombre": "Intel i7 11700K",
+    "cat": "CPU",
+    "precio": 150000,
+    "img": "assets/img/intel11700k.jpg",
+    "stock": "no",
+    "cantidad": 1
+  },
+  {
+    "id": 2,
+    "nombre": "AMD Ryzen 7 5950x",
+    "cat": "CPU",
+    "precio": 200000,
+    "img": "assets/img/ryzen5900x.jpg",
+    "stock": "si",
+    "cantidad": 1
+  },
+  {
+    "id": 3,
+    "nombre": "NVIDIA RTX 3090",
+    "cat": "GPU",
+    "precio": 250000,
+    "img": "assets/img/rtx3090.png",
+    "stock": "no",
+    "cantidad": 1
+  },
+  {
+    "id": 4,
+    "nombre": "RADEON RX 6700 XT",
+    "cat": "GPU",
+    "precio": 170000,
+    "img": "assets/img/rx6700xt.png",
+    "stock": "si",
+    "cantidad": 1
+  },
+  {
+    "id": 5,
+    "nombre": "RADEON RX 6800 XT",
+    "cat": "GPU",
+    "precio": 220000,
+    "img": "assets/img/rx6800xt.png",
+    "stock": "no",
+    "cantidad": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Corsair carbide 275r",
+    "cat": "GABINETE",
+    "precio": 270000,
+    "img": "assets/img/carbide275r.webp",
+    "stock": "si",
+    "cantidad": 1
+  },
+  {
+    "id": 7,
+    "nombre": "Corsair Carbide 400c",
+    "cat": "GABINETE",
+    "precio": 80000,
+    "img": "assets/img/carbide400c.webp",
+    "stock": "si",
+    "cantidad": 1
+  },
+  {
+    "id": 8,
+    "nombre": "HyperX predator DDR4 RGB",
+    "cat": "MEMORIA",
+    "precio": 120000,
+    "img": "assets/img/hyperxpredator.jpg",
+    "stock": "si",
+    "cantidad": 1
+  },
+  {
+    "id": 9,
+    "nombre": "HyperX fury DDR4 RGB",
+    "cat": "MEMORIA",
+    "precio": 125000,
+    "img": "assets/img/hyperxfury.jpg",
+    "stock": "si",
+    "cantidad": 1
+  }
+]

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3b43eec5d5.js" crossorigin="anonymous"></script>
+    <script src="js/productos.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <!-- Inicio Header -->
+    <header>
+        <div class="container header">
+            <div class="header-logo">
+                <p>LOGO</p>
+            </div>
+
+            <div class="header-navbar">
+                <li class="active"><a href="#">INICIO</a></li>
+                <li><a href="#">PRODUCTOS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+                <div class="header-store">
+                    <div class="search">
+                        <input type="search" name="search" id="searchBar" placeholder="Producto...">
+                        <a href="#" class="search-button">
+                            <i class="fa-solid fa-lg fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                    <a href="javascript:modal()" onclick="" class="shopping-cart">
+                        <i class="fa-solid fa-lg fa-cart-shopping"></i>
+                        <div class="contador" id="productosTotal">0</div>
+                    </a>
+                    <div class="store-modal" id="modal">
+                        <div class="container-modal">
+                            <div class="header">
+                                <p>Carrito</p>
+                                <a href="javascript:closeModal()">
+                                    <i class="fa-solid fa-lg fa-xmark"></i>
+                                </a>
+                            </div>
+                            <div class="content-1">
+                                <p>Producto</p>
+                                <p>Precio</p>
+                                <p>Cantidad</p>
+                                <p></p>
+                            </div>
+                            <div class="content-2" id="contenedorCarrito">
+                                <p id="sinProductos">Aún no hay productos en tu carrito...</p>
+                                <!-- Se cargan los productos seleccionados -->
+                            </div>
+                            <div class="content-3">
+                                <p>Total: $<span id="precioTotal"></span></p>
+                            </div>
+                            <button disabled id="finalizar" type="submit">Finalizar compra</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Fin Header -->
+
+    <!-- Inicio Main -->
+    <main>
+        <div class="container main">
+            <div class="contenedor-general">
+                <div class="contenedor-general--aside">
+                    <h2>Categorias</h2>
+                    <div class="categorias" id="categorias">
+                    </div>
+                </div>
+                <div class="contenedor-general--productos">
+                    <h1>Carrito de compras</h1>
+                    <select id="filtroPrecio">
+                        <option value="mayor">menor a mayor</option>
+                        <option value="menor">mayor a menor</option>
+                    </select>
+                    <div class="lista" id="contenedorProductos">
+                        <!-- Se carga el contenido mediante JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Fin Main -->
+
+    <!-- Inicio footer -->
+    <footer>
+        <div class="container footer">
+            <div class="footer-copyright">
+                <p>© 2022, Nahuel Acuña. Todos los derechos reservados</p>
+            </div>
+            <div class="footer-ayuda">
+                <p>Ayuda:</p><br>
+                <li><a href="#">Envios</a></li>
+                <li><a href="#">Métodos de pago</a></li>
+                <li><a href="#">¿Cómo comprar?</a></li>
+            </div>
+            <div class="footer-contacto">
+                <p>Contacto:</p><br>
+                <p>Tel: +54 11 xxxx xxxx</p>
+                <p>Mail: nahuel.acunia@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Fin Footer -->
+
+    <!-- Inicio Javascript -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/carrito.js"></script>
+    <!-- Fin Javascript -->
+</body>
+</html>
